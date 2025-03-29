@@ -15,13 +15,14 @@ int main(){
            for(int j = n - 2 ; j >= 0 ; j--){
             if(a[j] > a[index]){
                   index = j;
-                  swap(a[i],a[index]);
+                  
             }
             // int temp = a[index];
             // a[index] = a[i];
             // a[i] = temp;
            
            }
+           swap(a[i],a[index]);
 
     }
     for(int k = 0 ; k < n ; k++){

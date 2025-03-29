@@ -19,8 +19,9 @@ int main(){
             // int temp = a[index];
             // a[index] = a[i];
             // a[i] = temp;
-            swap(a[index],a[i]);
+            
            }
+           swap(a[index],a[i]);
 
     }
     for(int k = 0 ; k < n ; k++){
